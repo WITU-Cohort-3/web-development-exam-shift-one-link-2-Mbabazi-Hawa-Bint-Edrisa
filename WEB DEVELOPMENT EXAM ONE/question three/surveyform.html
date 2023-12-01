@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+<body>
+    <div >
+    <h1>SURVEY FORM</h1>
+    <form>
+        <p>Let us know how we can improve WITU</p>
+            
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your Name"><br>
+                <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder=" Enter your Email"><br>
+                 <label for="age">Age:</label><br>
+                    <input type="text" id="age" name="age" placeholder="Age"><br><br>
+        </label>
+        <label>
+    <label for="roles">Which option best describes your current role:</label>
+  <select id="roles" name="roles">
+    <option value="student">Student</option>
+    <option value="developer">Developer</option>
+    <option value="graphics designer">Graphics Designer</option> 
+</label>
+<!-- The second part only comes up when the first is commented out!I have failed to know why.appologies -->
+<label> 
+<pre> </pre>
+<p>How likely is that you would recommend WITU to a friend</p>
+ 
+    <input type="radio" id="definately" name="choice" value="1">
+    <label for="definately">Definately</label>
+    
+    <input type="radio" id="maybe" name="choice" value="2">
+    <label for="maybe">Maybe</label> 
+
+    <input type="radio" id="not sure" name="choice" value="2">
+    <label for="not sure">Not sure</label>
+</label> 
+<pre> </pre>
+<label for="roles">What do you like most in WITU:</label>
+  <select id="like" name="like">
+    <option value="select">Select an option</option>
+    <pre> </pre>
+
+    <p>Things that could improved in the future(check and apply)</p>
+    <input type="radio" id="frontend" name="choice" value="1">
+    <label for="frontend">Front-end projects </label>
+    <input type="radio" id="backend" name="choice" value="1">
+    <label for="backend">Back-end projects </label>
+    <input type="radio" id="data" name="choice" value="1">
+    <label for="data">Data visualisation </label>
+    </form>
+</div>
+</body>
+</html>
